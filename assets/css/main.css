@@ -2573,11 +2573,9 @@ input, select, textarea {
 			padding: 1.5em 0 0 0;
 		}
 
-			ul.posts li:first-child {
-				border-top: 0;
-				margin-top: 0;
-				padding-top: 0;
-			}
+		.first-member {
+			border-top: 0 !important;
+		}
 
 		ul.posts article {
 			display: -moz-flex;
