@@ -2764,7 +2764,9 @@ input, select, textarea {
 		}
 
 		.member-profile img {
-			width: 100%;
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
 			border-radius: 100%;
 			flex-grow: 2;
 		}
