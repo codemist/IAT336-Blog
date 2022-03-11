@@ -2298,7 +2298,7 @@ input, select, textarea {
 		.in-blog {
 			max-width: 500px;
 			width: 100%;
-			margin: 0 auto;
+			margin: 2rem auto;
 		}
 
 		.image img {
@@ -2568,8 +2568,29 @@ input, select, textarea {
 		margin: 0 auto;
 	}
 
+	.persona {
+		max-width: 700px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		gap: 3rem;
+		align-items: center;
+	}
+
+	.persona img {
+		width: 200px;
+		height: 200px;
+		border-radius: 100%;
+		object-fit: cover;
+	}
+
+	.persona-info {
+		margin: 0;
+	}
+
+
 	.blog-post-body h2 {
-		top: 3rem;
+		top: 4rem;
 		text-align: center;
 		border-top: 1px solid #eee;
 		padding-top: 1rem;
@@ -2765,7 +2786,7 @@ input, select, textarea {
 /* Post */
 
 	.post {
-		padding: 3em 3em 1em 3em ;
+		padding: 3em 3em 3em 3em ;
 		background: #ffffff;
 		border: solid 1px rgba(160, 160, 160, 0.3);
 		margin: 0 0 3em 0;
