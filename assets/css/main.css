@@ -206,7 +206,7 @@ input, select, textarea {
 		color: #3c3b3b;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 800;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.1em;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
@@ -1792,7 +1792,7 @@ input, select, textarea {
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.6em;
 		font-weight: 400;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.1em;
 		text-transform: uppercase;
 		white-space: nowrap;
 	}
@@ -1877,7 +1877,7 @@ input, select, textarea {
 		font-size: 0.6em;
 		font-weight: 800;
 		height: 4.8125em;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.1em;
 		line-height: 4.8125em;
 		padding: 0 2.5em;
 		text-align: center;
@@ -2285,9 +2285,20 @@ input, select, textarea {
 
 	.image {
 		border: 0;
-		display: inline-block;
 		position: relative;
 	}
+
+		.member {
+			border-radius: 100%;
+			width: 100px;
+			height: 100px;
+			object-fit: cover;
+		}
+
+		.in-blog {
+			max-width: 500px;
+			margin: 0 auto;
+		}
 
 		.image img {
 			display: block;
@@ -2576,22 +2587,23 @@ input, select, textarea {
 			-moz-align-items: -moz-flex-start;
 			-webkit-align-items: -webkit-flex-start;
 			-ms-align-items: -ms-flex-start;
-			align-items: flex-start;
-			-moz-flex-direction: row-reverse;
-			-webkit-flex-direction: row-reverse;
-			-ms-flex-direction: row-reverse;
-			flex-direction: row-reverse;
+			align-items: center;
+			justify-items: flex-start;
+			-moz-flex-direction: row;
+			-webkit-flex-direction: row;
+			-ms-flex-direction: row;
+			flex-direction: row;
 		}
 
 			ul.posts article .image {
-				display: block;
+				display: inline;
 				margin-right: 1.5em;
-				min-width: 4em;
-				width: 4em;
+				/* min-width: 4em;
+				width: 4em; */
 			}
 
 				ul.posts article .image img {
-					width: 100%;
+					/* width: 100%; */
 				}
 
 			ul.posts article header {
@@ -2612,7 +2624,7 @@ input, select, textarea {
 					font-family: "Raleway", Helvetica, sans-serif;
 					font-size: 0.6em;
 					font-weight: 400;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.1em;
 					margin: -0.625em 0 1.7em 0;
 					text-transform: uppercase;
 				}
@@ -2676,7 +2688,7 @@ input, select, textarea {
 				font-family: "Raleway", Helvetica, sans-serif;
 				font-size: 0.6em;
 				font-weight: 400;
-				letter-spacing: 0.25em;
+				letter-spacing: 0.1em;
 				margin: -0.625em 0 1.7em 0;
 				text-transform: uppercase;
 			}
@@ -2792,7 +2804,7 @@ input, select, textarea {
 					font-family: "Raleway", Helvetica, sans-serif;
 					font-size: 0.7em;
 					font-weight: 800;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.1em;
 					margin-top: 0.5em;
 					text-transform: uppercase;
 					white-space: nowrap;
@@ -2846,7 +2858,7 @@ input, select, textarea {
 					font-family: "Raleway", Helvetica, sans-serif;
 					font-size: 0.6em;
 					font-weight: 400;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.1em;
 					line-height: 1;
 					margin: 0 0 0 2em;
 					padding: 0 0 0 2em;
@@ -3032,7 +3044,7 @@ input, select, textarea {
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.7em;
 		font-weight: 400;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.1em;
 		line-height: 2.5;
 		margin-top: -1em;
 		text-transform: uppercase;
@@ -3190,7 +3202,7 @@ input, select, textarea {
 					font-family: "Raleway", Helvetica, sans-serif;
 					font-size: 0.7em;
 					font-weight: 400;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.1em;
 					text-transform: uppercase;
 				}
 
@@ -3502,7 +3514,7 @@ input, select, textarea {
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.5em;
 		font-weight: 400;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.1em;
 		text-transform: uppercase;
 	}
 
@@ -3578,7 +3590,7 @@ input, select, textarea {
 						font-family: "Raleway", Helvetica, sans-serif;
 						font-size: 0.6em;
 						font-weight: 400;
-						letter-spacing: 0.25em;
+						letter-spacing: 0.1em;
 						margin-bottom: 0;
 						text-decoration: none;
 						text-transform: uppercase;
