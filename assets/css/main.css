@@ -2748,7 +2748,40 @@ input, select, textarea {
 		border: solid 1px rgba(160, 160, 160, 0.3);
 		margin: 0 0 3em 0;
 		position: relative;
+
 	}
+		.member-profile {
+			padding: 3em 3em 1em 3em;
+			background: #ffffff;
+			border: solid 1px rgba(160, 160, 160, 0.3);
+			margin: 0 auto;
+			position: relative;
+			max-width: 960px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 3em;
+		}
+
+		.member-profile img {
+			width: 100%;
+			border-radius: 100%;
+			flex-grow: 2;
+		}
+
+		.member-name {
+			margin: 0;
+		}
+
+		.role {
+			color: #3c3b3b;
+			font-family: "Raleway", Helvetica, sans-serif;
+			letter-spacing: 0.1em;
+			line-height: 1.65;
+			margin: 0 0 1em 0;
+			font-size: 0.7em;
+			text-transform: uppercase;
+		}
 
 		.post > header {
 			display: -moz-flex;
@@ -2835,6 +2868,10 @@ input, select, textarea {
 			-webkit-align-items: center;
 			-ms-align-items: center;
 			align-items: center;
+		}
+
+		.footer-profile {
+			margin-top: 3em;
 		}
 
 			.post > footer .actions {
