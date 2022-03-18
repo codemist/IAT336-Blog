@@ -2793,6 +2793,26 @@ input, select, textarea {
 		position: relative;
 
 	}
+
+	.material-item {
+		display: flex;
+		gap: 1rem;
+	}
+
+	.material-name {
+		margin: 0;
+		text-align: left;
+	}
+
+	.material-img {
+		width: 50px;
+		height: 50px;
+		object-fit: cover;
+		border-radius: 100%;
+	}
+
+
+
 		.member-profile {
 			padding: 3em 3em 1em 3em;
 			background: #ffffff;
