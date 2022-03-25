@@ -2295,6 +2295,10 @@ input, select, textarea {
 			object-fit: cover;
 		}
 
+		.video {
+			display: block;
+		}
+
 		.in-blog {
 			max-width: 500px;
 			width: 100%;
