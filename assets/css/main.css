@@ -1811,6 +1811,8 @@ input, select, textarea {
 			border-radius: 100%;
 			display: block;
 			width: 4em;
+			height: 4em;
+			object-fit: cover;
 		}
 
 		.author:hover .name {
