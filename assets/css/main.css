@@ -2570,7 +2570,6 @@ input, select, textarea {
 /* Posts */
 
 	.blog-post-body p {
-		max-width: 700px;
 		margin: 0 auto;
 	}
 
