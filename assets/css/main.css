@@ -2302,7 +2302,7 @@ input, select, textarea {
 		}
 
 		.in-blog {
-			max-width: 500px;
+			max-width: 750px;
 			width: 100%;
 			margin: 2rem auto;
 		}
@@ -2571,7 +2571,9 @@ input, select, textarea {
 
 	.blog-post-body p {
 		margin: 0 auto;
+		max-width: 750px;
 	}
+
 
 	.persona {
 		max-width: 700px;
