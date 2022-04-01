@@ -2804,7 +2804,12 @@ input, select, textarea {
 	.material-item {
 		display: flex;
 		gap: 1rem;
+		margin: 0 auto;
+		align-items: center;
+		width: 750px;
+		margin-bottom: 1rem;
 	}
+
 
 	.material-name {
 		margin: 0;
